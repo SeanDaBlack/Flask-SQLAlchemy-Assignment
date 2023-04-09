@@ -13,8 +13,15 @@
       <th>Rating</th>
     </tr>
   </thead>
+  {% for movie in movies %}
   <tbody>
     <!-- TODO - Render movies in a table with a link on the title to the individual movie page -->
+    
+    <th>{{ movie.title }}</th>
+    <th>{{ movie.director}}</th>
+    <th>{{ movie.rating }}</th>
+    
   </tbody>
+  {% endfor %}
 </table>
 {% endblock %}
