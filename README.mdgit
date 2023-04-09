@@ -1,1 +1,0 @@
-"# Flask-SQLAlchemy-Assignment"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/SeanDaBlack/Flask-SQLAlchemy-Assignment.gitgit push -u origin main
